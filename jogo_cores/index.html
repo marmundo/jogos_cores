@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo das Cores</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+	<div class="row">
+		<div class="col-md-4">
+
+            <div class="controle_geral">
+                <div class="lata_cor vermelho">
+                    
+                </div>
+                
+                <div class="controle">
+                        <label for="customRange1">Vermelho</label>
+                        <input type="range" class="custom-range" id="slider_vermelho" min="0" max="255" step="5">
+                </div>
+            </div>
+                    
+            <div class="controle_geral">
+                <div class="lata_cor verde">
+                    
+                </div>
+                
+                <div class="controle">
+                    <label for="customRange1">Verde</label>
+                    <input type="range" class="custom-range" id="slider_verde" min="0" max="255" step="5">
+                </div>
+            </div>
+            
+            <div class="controle_geral">
+                <div class="lata_cor azul">
+                    
+                </div>
+                
+                <div class="controle">
+                    <label for="customRange1">Azul</label>
+                    <input type="range" class="custom-range" id="slider_azul" min="0" max="255" step="5">
+                </div>
+            </div>
+
+        </div>
+        
+		<div class="col-md-4">
+			<div class="lata_cor lata_cor_resultado">
+				
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="lata_cor_questao lata_cor">
+            </div>
+            <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+		</div>
+	</div>
+</div>
+<script src="jogo_cor.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.lata_cor{
+        border-radius: 25px;
+        padding: 20px; 
+        width: 200px;
+        height: 150px; 
+        margin-left: 20px
+}
+
+.vermelho{
+    background-color: red
+}
+.azul{
+    background-color: blue
+}
+.verde{
+    background-color: green
+}
+
+.lata_cor_resultado{
+    background-color: rgb(0,0,0)
+}
+
+.row{
+    margin-top: 20px;
+}
+.controle{
+    margin-top: 25px;
+    margin-bottom: 5px;  
+}
+
+.controle_geral{
+    border: 2px solid red;
+    border-radius: 25px;
+    margin:5px 10px;    
+    padding: 10px;  
+}
