@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Você venceu!</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+
+    <style>
+        @font-face {
+            src: url(GameOver.ttf);
+            font-family: "GameOver";
+        }
+
+        .gameover {
+            font-family: "GameOver";
+            font-size: 6em;
+        }
+    </style>
 </head>
-<body>
-    <h1>Você venceu!!</h1>
+<body class="bg-light d-flex align-items-center justify-content-center" style="min-height: 100vh">
+    
+    <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="gameover text-info mb-0">Game Over</h2>
+        <h1 class="text-success mt-0 mb-2 text-uppercase">Parabéns, você venceu!!</h1>
+    </div>
 </body>
 </html>
